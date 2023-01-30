@@ -1,0 +1,13 @@
+.video-container{
+   
+  
+}
+.video-right{
+    
+}
+
+.video-container video{
+    border-radius: 10%;
+    border: solid red;
+    
+}
