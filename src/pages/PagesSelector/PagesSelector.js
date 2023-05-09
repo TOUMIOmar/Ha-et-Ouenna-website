@@ -14,6 +14,8 @@ import Insidearchitectur from '../../components/Insidearchitectur'
 import Architecturfinalpath from '../../components/Architecturfinalpath'
 import Courparticulier from '../../components/courpaticulier/Courparticulier'
 import Sideright from '../../components/Sideright'
+import Institusnetro from '../pages with more content/Institusnetro'
+import CHUrabta from '../pages with more content/CHUrabta'
 
 
 
@@ -78,6 +80,20 @@ const PagesSelector = (props) => {
 <div className='part-two'>
       <Designe lang={props.lang} setlang={props.setlang}/>
 </div>
+
+: 
+ (parm.id=="hopital"&&parm.path=="Institut Nerologie")?
+ <div className='part-two'>
+      <Institusnetro/>
+ </div>
+
+: 
+(parm.id=="hopital"&&parm.path=="CHU LA RABTA")?
+<div className='part-two'>
+     <CHUrabta/>
+</div>
+
+
  : 
  (parm.id=="archiyoga")?
  <div className='part-two'>

@@ -5,9 +5,13 @@ const Archiyoga = (props) => {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   })
-  return (
+  return (   
     <div>
-      <div className="main-cont">
+      <video controls autoplay width="53%" style={{marginTop:"0px",paddingTop:"0px",borderRadius:"2%"}}>
+        <source src="archi-yoga.mp4" type="video/mp4"></source>
+        Your browser does not support the video tag.
+      </video>
+     {/* <div><div className="main-cont">
         <div className="card">
           <div className="card__content">
             <h1>Archi</h1>
@@ -202,6 +206,8 @@ connaissance intellectuelle de cette pratique mais de la Vivre ici et maintenant
        
       </div>
     </div>
+        */}
+        </div>
   );
 };
 

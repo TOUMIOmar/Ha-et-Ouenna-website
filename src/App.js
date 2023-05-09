@@ -1,5 +1,6 @@
 
 import "./App.css";
+import ReactJkMusicPlayer from "react-jinke-music-player";
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/homepage/Home';
@@ -16,6 +17,7 @@ function App() {
   const [lang,setlang]=useState(1)
 
   return <div className="App">
+    
      <audio autoplay="" loop="" src="./calm.mp3"></audio>
     <Chooselanguage lang={lang} setlang={setlang}/>
     

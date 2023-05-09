@@ -30,7 +30,7 @@ const Home = (props) => {
         {(props.lang===0)?
        <div>
     <p >Haïet Ouenna</p> 
-    <p>Chef d'entreprise, Architect-être,Maître avancé Yoga Iyengar.<br></br></p>
+    <p>Architecte urbaniste, Enseignante de Yoga Iyengar.<br></br></p>
       <a style={{fontFamily: "st_marie_thinthin",fontSize: "15px",color: "black",paddingTop:"0",marginTop:"0"}}>
         Cliquez sur mon visage !
       </a>
@@ -49,11 +49,10 @@ const Home = (props) => {
       <a style={{fontFamily: "st_marie_thinthin",fontSize: "15px",color: "black",paddingTop:"0",marginTop:"0"}}>
       Click on my face!
       </a>
-    <p>ouenna.h@gnet.tn</p> </div>
+    <p>ouennah@gmail.com</p> </div>
         }
     </div>
         </div>
-   
     </div>
   );
 };

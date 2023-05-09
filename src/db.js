@@ -1,6 +1,6 @@
 export const data = {
         hotel:[
-                ["hotel","grand hotel","projet ta7founnnnnn2",
+                ["hotel","tunis grand hotel","projet ta7founnnnnn2",
                 "https://github.com/sabrine95/haiet-re-/blob/master/hotel%20re/h3.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/hotel%20re/h11.png?raw=true",
                         "https://github.com/sabrine95/haiet-re-/blob/master/hotel%20re/h22.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/hotel%20re/h33.png?raw=true",
                         "https://github.com/sabrine95/haiet-re-/blob/master/hotel%20re/h4.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/hotel%20re/h5.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/hotel%20re/h6.png?raw=true",
@@ -47,6 +47,10 @@ export const data = {
         
                 ],
         hopital:[
+                ["hopital","CHU LA RABTA","CHU LA RABTA",
+        "http://www.chularabta.tn/wp-content/uploads/2017/07/rabta.png",
+                
+                ],
                 ["hopital","Hopital CMNT","planche avant",
                 "https://github.com/sabrine95/haiet-re-/blob/master/cmt%20res/pa44.png?raw=true",
                         "https://github.com/sabrine95/haiet-re-/blob/master/cmt%20res/pa22.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/cmt%20res/pa33.png?raw=true",
@@ -56,7 +60,7 @@ export const data = {
                         "https://github.com/sabrine95/haiet/blob/master/Planche%20Apr%C3%A9s/Phacade%20principale%20.png?raw=true",
                         "https://github.com/sabrine95/haiet-re-/blob/master/cmt%20res/hm22.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/cmt%20res/hm11.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/cmt%20res/hm55.png?raw=true",
                         ],
-                ["hopital","Institu Nerologie","institu nationale de nerogologie tunis",
+                ["hopital","Institut Nerologie","institu nationale de nerogologie tunis",
                 "https://github.com/sabrine95/haiet-re-/blob/master/nerologi%20re/n5.png?raw=true",
                         "https://github.com/sabrine95/haiet-re-/blob/master/nerologi%20re/n2.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/nerologi%20re/n1.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/nerologi%20re/n4.png?raw=true",
                         "https://github.com/sabrine95/haiet-re-/blob/master/nerologi%20re/n6.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/nerologi%20re/n7.png?raw=true",
@@ -93,6 +97,13 @@ export const data = {
                         "https://github.com/sabrine95/haiet-re-/blob/master/espace%20re/e44.png?raw=true","https://github.com/sabrine95/haiet-re-/blob/master/espace%20re/e55.png?raw=true",
                         "https://github.com/sabrine95/haiet-re-/blob/master/espace%20re/e66.png?raw=true",
                         ]
+                ,
+                ["Café la Goulette","Café la Goulette","coffe tunis",
+        "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-5.jpg?raw=true",
+                "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-1.jpg?raw=true","https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-3.jpg?raw=true",
+                "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-4.jpg?raw=true","https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-5.jpg?raw=true",
+                "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-6.jpg?raw=true","https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-7.jpg?raw=true",
+                ]
                 ],
         faculté:[
                 ["faculté","faculté d'infermerie","fac de sc infermerie tunis",
@@ -146,7 +157,7 @@ export const imglist =["https://assets.publishing.service.gov.uk/government/uplo
 
 export const data2 = {
                 hotel:[
-                        ["hotel","grand hotel","projet ta7founnnnnn2",
+                        ["hotel","tunis grand hotel","projet ta7founnnnnn2",
                         "https://github.com/sabrine95/haiet/blob/master/Hotel/4.png?raw=true","https://github.com/sabrine95/haiet/blob/master/Hrand%20hotel%20tunis/Grand-Hotel-de-France.jpg?raw=true",
                                 "https://github.com/sabrine95/haiet/blob/master/Hrand%20hotel%20tunis/image1.jpg?raw=true","https://github.com/sabrine95/haiet/blob/master/Hrand%20hotel%20tunis/image2.jpg?raw=true",
                                 "https://github.com/sabrine95/haiet/blob/master/Hrand%20hotel%20tunis/image3.jpg?raw=true","https://github.com/sabrine95/haiet/blob/master/Hrand%20hotel%20tunis/image4.jpg?raw=true","https://github.com/sabrine95/haiet/blob/master/Hrand%20hotel%20tunis/image5.jpg?raw=true",
@@ -192,7 +203,9 @@ export const data2 = {
                                 ],
                 
                         ],
-                hopital:[
+                hopital:[ ["hopital","CHU LA RABTA","CHU LA RABTA",
+                "http://www.chularabta.tn/wp-content/uploads/2017/07/rabta.png",
+                        ],
                         ["hopital","Hopital CMNT","planche avant",
                         "https://github.com/sabrine95/haiet/blob/master/Planche%20avant/pa1.png?raw=true",
                                 "https://github.com/sabrine95/haiet/blob/master/Planche%20avant/pa2.png?raw=true","https://github.com/sabrine95/haiet/blob/master/Planche%20avant/pa3.png?raw=true",
@@ -202,7 +215,7 @@ export const data2 = {
                                 "https://github.com/sabrine95/haiet/blob/master/Planche%20Apr%C3%A9s/Phacade%20principale%20.png?raw=true",
                                 "https://github.com/sabrine95/haiet/blob/master/Planche%20Apr%C3%A9s/hm1.png?raw=true","https://github.com/sabrine95/haiet/blob/master/Planche%20Apr%C3%A9s/hm2.png?raw=true","https://github.com/sabrine95/haiet/blob/master/Planche%20Apr%C3%A9s/hm6.png?raw=true",
                                 ],
-                        ["hopital","Institu Nerologie","institu nationale de nerogologie tunis",
+                        ["hopital","Institut Nerologie","institu nationale de nerogologie tunis",
                         "https://github.com/sabrine95/haiet/blob/master/Hopital/h5.png?raw=true",
                                 "https://github.com/sabrine95/haiet/blob/master/Hopital/h2.png?raw=true","https://github.com/sabrine95/haiet/blob/master/Hopital/h1.png?raw=true","https://github.com/sabrine95/haiet/blob/master/Hopital/h4.png?raw=true",
                                 "https://github.com/sabrine95/haiet/blob/master/Hopital/h8.png?raw=true","https://github.com/sabrine95/haiet/blob/master/Hopital/h9.png?raw=true",
@@ -239,6 +252,13 @@ export const data2 = {
                                 "https://github.com/sabrine95/haiet/blob/master/espace%20cramant%20champagne%20france/88.jpg?raw=true","https://github.com/sabrine95/haiet/blob/master/espace%20cramant%20champagne%20france/P1190891.JPG?raw=true",
                                 "https://github.com/sabrine95/haiet/blob/master/espace%20cramant%20champagne%20france/P1190892.JPG?raw=true",
                                 ]
+                                ,
+                ["Café la Goulette","Café la Goulette","coffe tunis",
+        "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-5.jpg?raw=true",
+                "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-1.jpg?raw=true","https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-3.jpg?raw=true",
+                "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-4.jpg?raw=true","https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-5.jpg?raw=true",
+                "https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-6.jpg?raw=true","https://github.com/sabrine95/Project-Haiet-Aouina/blob/main/goulette/1-7.jpg?raw=true",
+                ]
                         ],
                 faculté:[
                         ["faculté","faculté d'infermerie","fac de sc infermerie tunis",
@@ -279,4 +299,81 @@ export const data2 = {
                                         ]
                         ]
                 };
+export const pdf = {
+        hotel:[
+                ["hotel","tunis grand hotel","tunis grand hotel",
+                "https://drive.google.com/file/d/1uX-ldB0SUzj6EZkWXmGSZILz7af_le-W/view?usp=sharing",
+                ],
+                ],
+        villa:[
+                ["villa","villa gammarth","gammarthh",
+                "https://drive.google.com/file/d/1qKJje6YnVXOw0G-sNPDVO3l90y9MeUtf/view?usp=sharing",
+                "https://drive.google.com/file/d/1PSzMaXA6O8C9egZf1aid9uxgItWjxix9/view?usp=sharing",
+                "https://drive.google.com/file/d/1hp6FFy5rLPmrOXatGJ3Q0cCKCKcVzwOx/view?usp=sharing",
+                "https://drive.google.com/file/d/15sPo9AspypzJSR2Qiql7MqenRMdhya5W/view?usp=sharing",
+                ],
+                ["villa","Villa Manzah4","Manzah44",
+                "https://drive.google.com/file/d/17ZdhsIkGRbSMar-ZaCA2fi0QYPRUvkPt/view?usp=sharing",
+                "https://drive.google.com/file/d/1kFCxf5INc9RCyLmmP3imARUp0NQ4SO9m/view?usp=sharing",
+                        ],
+                ["villa","Villa Carthage","institu pasteur santé",
+                "https://drive.google.com/file/d/1u7ib1XfjEa2d0rWtt_u51hd4c-AQyz7V/view?usp=sharing"
+                        ],
+                ["villa","Villa Marsa","villa Marsa",
+                        ],
+                ["villa","La Khartessa ECO-village testour","Villa testour",
+                        ],
         
+                ],
+        hopital:[ ["hopital","CHU LA RABTA","CHU LA RABTA",
+       
+                ],
+                ["hopital","Hopital CMNT","planche avant",
+                "https://drive.google.com/file/d/1s7mgevqjuzgEASsFuN0Yiwyy-n91ybye/view?usp=sharing",
+                "https://drive.google.com/file/d/1rzqXIfTRedMtXH8yIjaVAEOMjkEw-9c6/view?usp=sharing",
+                "https://drive.google.com/file/d/1ThYFu9SKhoN6YbtXj7rqgie9d3J_Cdcw/view?usp=sharing",
+                ],
+                ["hopital","Institut Nerologie","institu nationale de nerogologie tunis",
+                
+                        ],
+                ["hopital","Hopital abedrahmen mami","Hopital abedrahmen mamni tunis",
+               
+                ]
+                ],
+        Douane:[
+                ["Douane","Douane étranger Tunisie","DE",
+                        ]
+                ],
+                
+        coffe:[
+                ["coffe","coffe Shop Terranova","coffe tunis",
+                "https://drive.google.com/file/d/1GTGxyREhFAvD2UK6s0ICeMDZ_A7E9Myo/view?usp=sharing"
+                        ],
+                ["espace","espace cramant champagne","france",
+                        ]
+                        ,
+        ["Café la Goulette","Café la Goulette","coffe tunis",
+        ]
+                ],
+        faculté:[
+                ["faculté","faculté d'infermerie","fac de sc infermerie tunis",
+                        ]
+                ],        
+        bank:[
+                ["bank","biat bank","projet ta7foun77",
+                        ]
+                ],
+        musé:[
+                ["musé","musé","projet ta7foun",
+                        ]
+                ],
+        usine:[
+                ["usine","usine","usine ta7foun",
+                        ],
+                ["equipement","equipement publique","equipement publique",
+              
+                                ]
+                ]
+}
+
+
