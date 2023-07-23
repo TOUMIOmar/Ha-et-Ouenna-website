@@ -7,13 +7,6 @@ import ringer from "../../calm.mp3"
 
 
 const Home = (props) => {
-  {/*const audio = new Audio(ringer);
-  const[aaa,setaaa]=useState(true)
-  useEffect(()=>{
-    (aaa)? audio.play() : setaaa(false)
-    
-  },)*/}
-
   useEffect(()=>{
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
@@ -21,7 +14,6 @@ const Home = (props) => {
   return (
     
     <div className="homepage-background">
-      <audio autoplay="" loop="" src="./calm.mp3"></audio>
     <div className="homepage">
       <div className="navigation-pos">
         <Navigation lang={props.lang} setlang={props.setlang}/>
@@ -32,7 +24,8 @@ const Home = (props) => {
     <p >Haïet Ouenna</p> 
     <p>Architecte urbaniste, Enseignante de Yoga Iyengar.<br></br></p>
       <a style={{fontFamily: "st_marie_thinthin",fontSize: "15px",color: "black",paddingTop:"0",marginTop:"0"}}>
-        Cliquez sur mon visage !
+      Cliquez sur le visage !
+
       </a>
     <p>ouenna.h@gnet.tn</p> </div>:
       (props.lang===1)?
@@ -40,14 +33,14 @@ const Home = (props) => {
     <p >حياة عوينا</p> 
     <p>مديرة أعمال,مهندسة معمارية,خبيرة يوجا ينجار<br></br></p>
       <a style={{fontFamily: "st_marie_thinthin",fontSize: "15px",color: "black",paddingTop:"0",marginTop:"0"}}>
-      !انقر على وجهي
+      اضغط على الوجه
       </a>
     <p>ouenna.h@gnet.tn</p> </div>:
     <div>
     <p >Haïet Ouenna</p> 
     <p>Business Leader, Architecte, Advanced Master in Iyengar Yoga.<br></br></p>
       <a style={{fontFamily: "st_marie_thinthin",fontSize: "15px",color: "black",paddingTop:"0",marginTop:"0"}}>
-      Click on my face!
+      Click on the face!
       </a>
     <p>ouennah@gmail.com</p> </div>
         }

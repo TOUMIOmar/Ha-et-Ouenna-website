@@ -16,6 +16,8 @@ import Courparticulier from '../../components/courpaticulier/Courparticulier'
 import Sideright from '../../components/Sideright'
 import Institusnetro from '../pages with more content/Institusnetro'
 import CHUrabta from '../pages with more content/CHUrabta'
+import Coffe from '../../components/Coffe'
+import Bauhaus from '../../components/Bauhaus'
 
 
 
@@ -33,7 +35,7 @@ const PagesSelector = (props) => {
     setcheck(false)
     setcheckinsidearchi(false)
     Object.keys(data).map((el,index)=>
-    (parm.id==el||parm.path)? setcheckinsidearchi(true):console.log(''))
+    ((parm.id==el ||parm.path) && parm.id !="design")? setcheckinsidearchi(true):console.log(''))
 
     Object.keys(data).map((el,index)=>
       (parm.id==el)? setcheckparm(true) :console.log('')   )  
@@ -47,7 +49,6 @@ const PagesSelector = (props) => {
          Object.values(data)[index].map((ell,indexx)=>
       (parm.path==ell[1])? setcheck(true) 
       
-      
         :console.log('')   )                         
 
       :console.log('')
@@ -55,10 +56,14 @@ const PagesSelector = (props) => {
   }
  ,)
   
+
+ const season_color={
+  backgroundColor:"red"
+}
   return (
     <div className='pages-selector'>    
         <div  className='part-one'>
-                <Sidebar lang={props.lang} setlang={props.setlang}/>
+                <Sidebar lang={props.lang} setlang={props.setlang} season={props.season}/>
         </div>
 {(parm.id=="architectur")? 
   <div className='part-two'>
@@ -75,11 +80,22 @@ const PagesSelector = (props) => {
 <div className='part-two'>
       <Video lang={props.lang} setlang={props.setlang}/>
 </div>
+: 
+(parm.id=="design" && parm.path=="bauhaus")?
+<div className='part-two'>
+      <Bauhaus lang={props.lang} setlang={props.setlang}/>
+</div>
+: 
+(parm.id=="design" && parm.path=="espace cramant")?
+<div className='part-two'>
+      <Coffe lang={props.lang} setlang={props.setlang}/>
+</div>
  : 
-(parm.id=="design")?
+(parm.id=="design" )?
 <div className='part-two'>
       <Designe lang={props.lang} setlang={props.setlang}/>
 </div>
+
 
 : 
  (parm.id=="hopital"&&parm.path=="Institut Nerologie")?
@@ -127,7 +143,6 @@ const PagesSelector = (props) => {
 <div className='part-two'>
 <p>NOT FOUND</p>
 </div>
-
 
 
 }  

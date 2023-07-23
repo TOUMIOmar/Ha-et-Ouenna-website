@@ -2,8 +2,9 @@ import React from "react";
 import "../components/sidebar.css";
 import { Link } from "react-router-dom";
 const Sidebar = (props) => {
+
   return (
-    <div id="sidebar">
+    <div  id="sidebar">
       <li>
         <Link id="l" to="/">
           {(props.lang==0)?<h1>H</h1>:(props.lang==1)?<h1>م</h1>:<h1>H</h1>}

@@ -23,9 +23,6 @@ const CHUrabta = () => {
 
 
     </div>
-
-
-
     <spam style={{textTransform: "uppercase" }}>CHU la Rabta Service de chirurgie thoracique et cardiovasculaire</spam>
     <div id='container-card-archi'>
 <div className='box'>
