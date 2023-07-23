@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import '../components/play.css'
 import useSound from 'use-sound';
-import calm from '../calm.mp3'
+// import calm from '../calm.mp3'
 
 
 const Playmusic = () => {
-    const [play,{stop}]=useSound(calm)
+    const [play,{stop}]=useSound("calm.mp3")
     const [iconDisplay,seticonDisplay]=useState(true)
 
   return (
@@ -22,8 +22,6 @@ const Playmusic = () => {
          </button>
         }
        
-
-      
     </div>
 
   )

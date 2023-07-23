@@ -29,7 +29,6 @@ function App() {
           <Route path="/" element={<Home  lang={lang} setlang={setlang} season={season}/>} />
           <Route path="/:id" element={<PagesSelector lang={lang} setlang={setlang} season={season}/>} />
           <Route path="/:id/:path" element={<PagesSelector lang={lang} setlang={setlang} season={season}/>} />
-          <Route path="/coffe" element={<Coffe lang={lang} setlang={setlang} season={season}/>} />
 
         </Routes>
     </BrowserRouter>
